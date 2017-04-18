@@ -87,7 +87,7 @@
                 "shasum": ""
             },
             "require": {
-                "bower-asset/jquery": ">=1.9.1,<4.0"
+                "bower-asset/jquery": ">=1.9.1,<=3"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -478,7 +478,7 @@
                 "bower-asset/sifter": "dev-0.5.x|0.5.x"
             },
             "require-dev": {
-                "bower-asset/bootstrap-2": "~2",
+                "bower-asset/bootstrap-2": "2",
                 "bower-asset/bootstrap-3.2": "3.2"
             },
             "type": "bower-asset-library",
@@ -923,12 +923,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "f9de13eb7b78bf8f4947e74160100a27f168af13"
+                "reference": "8eaa82b863032d392b05036d54723a3514f58b71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f9de13eb7b78bf8f4947e74160100a27f168af13",
-                "reference": "f9de13eb7b78bf8f4947e74160100a27f168af13",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8eaa82b863032d392b05036d54723a3514f58b71",
+                "reference": "8eaa82b863032d392b05036d54723a3514f58b71",
                 "shasum": ""
             },
             "require": {
@@ -1015,7 +1015,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-04-13 17:21:40"
+            "time": "2017-04-17 00:31:43"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1023,12 +1023,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "65d43badb619fff8c136c2bf75f8b81151e56b2d"
+                "reference": "0a549a51a454294ab9a41052385dbe7ff9ee7756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/65d43badb619fff8c136c2bf75f8b81151e56b2d",
-                "reference": "65d43badb619fff8c136c2bf75f8b81151e56b2d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/0a549a51a454294ab9a41052385dbe7ff9ee7756",
+                "reference": "0a549a51a454294ab9a41052385dbe7ff9ee7756",
                 "shasum": ""
             },
             "require": {
@@ -1065,7 +1065,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2017-04-13 11:25:57"
+            "time": "2017-04-16 23:46:07"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -1317,7 +1317,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-04-07 07:05:49"
+            "time": "2017-04-07T07:05:49+00:00"
         },
         {
             "name": "yiisoft/yii2-codeception",
@@ -1363,7 +1363,7 @@
                 "yii2"
             ],
             "abandoned": "codeception/codeception",
-            "time": "2016-10-20 13:07:49"
+            "time": "2016-10-20T13:07:49+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -1410,7 +1410,7 @@
                 "faker",
                 "yii2"
             ],
-            "time": "2017-02-11 20:27:55"
+            "time": "2017-02-11T20:27:55+00:00"
         }
     ],
     "aliases": [],
