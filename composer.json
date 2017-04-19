@@ -32,14 +32,19 @@
                 "app/config/web.php"
             ]
         },
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
-        },
 	    "writable": [
             "assets",
             "uploads",
             "runtime"
         ]
+    },
+    "config": {
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "vendor-dir": "vendor"
     }
 }
